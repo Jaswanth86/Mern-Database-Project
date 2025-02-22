@@ -22,6 +22,7 @@ const PieChart = ({ apiBaseUrl, selectedMonth }) => {
 
   useEffect(() => {
     fetchPieChartData();
+    // eslint-disable-next-line
   }, [selectedMonth]);
 
   const fetchPieChartData = async () => {

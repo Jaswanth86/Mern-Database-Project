@@ -28,6 +28,7 @@ const BarChart = ({ apiBaseUrl, selectedMonth }) => {
 
   useEffect(() => {
     fetchBarChartData();
+    // eslint-disable-next-line
   }, [selectedMonth]);
 
   const fetchBarChartData = async () => {

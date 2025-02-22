@@ -16,6 +16,7 @@ const TransactionsTable = ({ apiBaseUrl, selectedMonth }) => {
 
   useEffect(() => {
     fetchTransactions();
+    // eslint-disable-next-line
   }, [selectedMonth, pagination.page, searchText]);
 
   const fetchTransactions = async () => {
