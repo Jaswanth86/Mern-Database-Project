@@ -1,0 +1,34 @@
+.bar-chart-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .bar-chart-container h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+  }
+  
+  .chart-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .error {
+    color: var(--danger-color);
+  }
+  
+  @media (max-width: 768px) {
+    .chart-wrapper {
+      height: 250px;
+    }
+  }
